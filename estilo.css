@@ -1,0 +1,73 @@
+body {
+    font-family: "Poppins";
+}
+p {
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+#primero {
+    font-size: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+.titular {
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+a {
+    font-size: 14px;
+    background-color: #5cb8ff;
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background: url(IMAGEN.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+.trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.trabajo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
